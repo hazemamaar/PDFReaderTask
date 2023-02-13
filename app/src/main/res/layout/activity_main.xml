@@ -13,7 +13,7 @@
         android:scrollbars="vertical"
         android:text=""
         android:textSize="15sp"
-        android:textColor="@color/teal_200"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_margin="15dp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -24,10 +24,9 @@
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
         android:layout_margin="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@android:drawable/ic_input_add" />
+        app:srcCompat="@drawable/speaker" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
